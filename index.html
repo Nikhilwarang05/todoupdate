@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/switch_button.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   
 </head>
 
 <body>
@@ -14,7 +16,20 @@
 
     </header>
 
-    <div class="todo-container"></div>
+    <section class="container">
+        <div class="todo">
+            <div>
+                <h2>Todo List</h2>
+                <input type="checkbox" class="switch" id="switch-1" />
+            </div>
+            <div class="items">
+                <div class="item">
+                    <input placeholder="Add a task to the list..." type="text">
+                    <i class="fab fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="name">Nikhil Warang</div>
